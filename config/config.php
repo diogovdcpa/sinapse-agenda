@@ -10,5 +10,5 @@ define('CONTROLLER_PADRAO', 'home');
 define('METODO_PADRAO', 'index');
 define('NAMESPACE_CONTROLLER', 'app\\controllers\\');
 
-define('URL_BASE', 'http://localhost/sinapse/agenda/');
-define('ASSETS', 'http://localhost/sinapse/agenda/assets/');
+define('URL_BASE', 'http://'.$_SERVER["HTTP_HOST"]);
+define('ASSETS', 'http://'.$_SERVER["HTTP_HOST"].'assets/');
